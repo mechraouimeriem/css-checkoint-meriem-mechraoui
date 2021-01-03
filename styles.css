@@ -1,0 +1,130 @@
+body {
+    background :rgb(0, 0, 0);
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 20px;
+}
+h3 {
+color: rgb(255, 255, 255);
+font-family: roboto;
+text-align: center;
+}
+
+span {
+color: rgb(255, 255, 255);
+font-family: roboto;
+text-align: center;
+display: block;
+background: center;
+
+
+}
+
+dl {
+    display: flex;
+    flex-flow: row wrap;
+    border: solid rgb(255, 255, 255);
+    border-width: 1px 1px ;
+    display: inline-block;
+    align-content: center;
+    margin-block-start: none;
+    margin-block-end: none;
+    margin-inline-start: none;
+    margin-inline-end: none;
+  }
+  dt {
+    flex-basis: 20%;
+    padding: 2px 4px;
+    background: rgb(255, 255, 255);
+    text-align: right;
+    align-content: flex-start;
+    color: rgb(126, 126, 126);
+  }
+  dd {
+    color: rgb(255, 255, 255);
+    display: list-item;
+    flex-basis: 70%;
+    flex-grow: 1;
+    margin: 0;
+    padding: 2px 4px;
+    border-bottom: 1px solid #333;
+  }
+   
+section > span {
+    font-weight: bold;
+    background-color: rgb(126, 126, 126);
+    color: #fff;
+    padding: .5em;
+    
+}   
+h1 {
+	color: rgb(255, 255, 255);
+    font-family: roboto;
+    text-align: center;
+}
+
+.title{
+    color:rgb(255, 255, 255);
+    padding-top: 20px;
+    text-align: justify;
+}
+h1 + p {
+    font-family: roboto;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: rgb(126, 126, 126);
+    color: #fff;
+    padding: .5em;
+    width: fit-content;
+}
+p {
+    color: #fff;
+    font-family: roboto;
+}
+img {
+border-radius: 200px;
+}
+
+#FORMATIONS h1{
+      text-shadow: 2px 2px 5px rgb(110, 110, 110);  background-color: lightgrey;
+
+
+}
+li {
+    display: inline;
+    float: left;
+    background-color: rgb(126, 126, 126);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+
+}
+#COMPETENCES {
+    display: inline-block;
+}
+
+ul {
+font-family: roboto;
+color: white;
+text-decoration: none;
+display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+
+padding-inline-start: 0px;
+}
+
+
+li a {
+text-decoration: none;
+ 
+}
+a {
+    color: white; 
+}
+
+      
+      
