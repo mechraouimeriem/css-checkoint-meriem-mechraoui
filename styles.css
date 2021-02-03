@@ -11,7 +11,7 @@ text-align: center;
 }
 
 span {
-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);
 font-family: roboto;
 text-align: center;
 display: block;
@@ -21,33 +21,38 @@ background: center;
 }
 
 dl {
-    display: flex;
-    flex-flow: row wrap;
+    /* display: flex;
+    flex-flow: row wrap; */
     border: solid rgb(255, 255, 255);
     border-width: 1px 1px ;
-    display: inline-block;
-    align-content: center;
+    text-align: center;
+
+    /* display: inline-block;
+    align-content: center; */
     margin-block-start: none;
     margin-block-end: none;
     margin-inline-start: none;
     margin-inline-end: none;
   }
   dt {
-    flex-basis: 20%;
+    /* flex-basis: 20%; */
     padding: 2px 4px;
     background: rgb(255, 255, 255);
-    text-align: right;
-    align-content: flex-start;
+    text-align: center;
+    /* align-content: flex-start; */
     color: rgb(126, 126, 126);
   }
   dd {
     color: rgb(255, 255, 255);
-    display: list-item;
-    flex-basis: 70%;
-    flex-grow: 1;
-    margin: 0;
+    /* display: list-item; */
+    /* flex-basis: 70%; */
+    /* flex-grow: 1; */
+    /* margin: 0; */
     padding: 2px 4px;
+    text-align: center;
+    margin-inline-start: 0px;
     border-bottom: 1px solid #333;
+
   }
    
 section > span {
@@ -58,15 +63,16 @@ section > span {
     
 }   
 h1 {
-	color: rgb(255, 255, 255);
+	color: rgb(190, 190, 190);
     font-family: roboto;
     text-align: center;
 }
 
 .title{
-    color:rgb(255, 255, 255);
+    color:rgb(158, 0, 58);
     padding-top: 20px;
     text-align: justify;
+    text-decoration: underline;
 }
 h1 + p {
     font-family: roboto;
@@ -82,14 +88,19 @@ p {
     font-family: roboto;
 }
 img {
-border-radius: 200px;
+border-radius:0px 50px 0px 50px;
+width:200px;
+height:250px;
+object-fit: cover;
 }
 
 #FORMATIONS h1{
-      text-shadow: 2px 2px 5px rgb(110, 110, 110);  background-color: lightgrey;
-
-
+      text-shadow: 2px 2px 5px rgb(110, 110, 110);  
+      background-color: lightgrey;
+color: rgb(0, 0, 0);
+background-size: 300px;
 }
+
 li {
     display: inline;
     float: left;
@@ -97,23 +108,20 @@ li {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-
-
 }
-#COMPETENCES {
-    display: inline-block;
+#COMPETENCES  dl{
+    object-position: center;
 }
-
+section {
+    display: unset;
+}
 ul {
 font-family: roboto;
 color: white;
 text-decoration: none;
 display: flex;
-  justify-content: center;
-  align-items: center;
-
-
-
+justify-content: center;
+align-items: center;
 padding-inline-start: 0px;
 }
 
